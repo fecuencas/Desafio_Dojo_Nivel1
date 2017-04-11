@@ -1,0 +1,910 @@
+=> [[32m#<Cucumber::Core::Report::Summary:0x00000006a8a290[0m
+  @test_cases[32m=[0m[32m#<Cucumber::Core::Test::Result::Summary:0x00000006a8a268[0m @durations[32m=[0m[], @exceptions[32m=[0m[], @totals[32m=[0m{}[32m>[0m,
+  @test_steps[32m=[0m
+   [32m#<Cucumber::Core::Test::Result::Summary:0x00000006a8a178[0m
+    @durations[32m=[0m
+     [[32m#<Cucumber::Core::Test::Result::Duration:0x00000006e6ca98[0m @nanoseconds[32m=[0m[1;34m3079[0m[32m>[0m,
+      [32m#<Cucumber::Core::Test::Result::Duration:0x00000006e75648[0m @nanoseconds[32m=[0m[1;34m28225[0m[32m>[0m,
+      [32m#<Cucumber::Core::Test::Result::Duration:0x00000006e7e4f0[0m @nanoseconds[32m=[0m[1;34m38489[0m[32m>[0m,
+      [32m#<Cucumber::Core::Test::Result::Duration:0x0000000707ee30[0m @nanoseconds[32m=[0m[1;34m7490335695[0m[32m>[0m,
+      [32m#<Cucumber::Core::Test::Result::Duration:0x0000000712d2a0[0m @nanoseconds[32m=[0m[1;34m2898620764[0m[32m>[0m,
+      [32m#<Cucumber::Core::Test::Result::Duration:0x00000007374c48[0m @nanoseconds[32m=[0m[1;34m2346658189[0m[32m>[0m],
+    @exceptions[32m=[0m[],
+    @totals[32m=[0m{[33m:passed[0m=>[1;34m6[0m}[32m>[0m[32m>[0m,
+ [32m#<Cucumber::Formatter::EventBusReport:0x00000006a8a088[0m
+  @config[32m=[0m
+   [32m#<Cucumber::Configuration:0x00000003f73930[0m
+    @options[32m=[0m
+     {[33m:autoload_code_paths[0m=>[[31m[1;31m"[0m[31mfeatures/support[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mfeatures/step_definitions[1;31m"[0m[31m[0m],
+      [33m:filters[0m=>[],
+      [33m:strict[0m=>[1;36mfalse[0m,
+      [33m:require[0m=>[],
+      [33m:dry_run[0m=>[1;36mfalse[0m,
+      [33m:fail_fast[0m=>[1;36mfalse[0m,
+      [33m:formats[0m=>[[[31m[1;31m"[0m[31mpretty[1;31m"[0m[31m[0m, [32m#<IO:<STDOUT>>[0m], [[31m[1;31m"[0m[31mhtml[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mreport.html[1;31m"[0m[31m[0m]],
+      [33m:excludes[0m=>[],
+      [33m:tag_expressions[0m=>[],
+      [33m:name_regexps[0m=>[],
+      [33m:env_vars[0m=>{},
+      [33m:diff_enabled[0m=>[1;36mtrue[0m,
+      [33m:snippets[0m=>[1;36mtrue[0m,
+      [33m:source[0m=>[1;36mtrue[0m,
+      [33m:duration[0m=>[1;36mtrue[0m,
+      [33m:event_bus[0m=>
+       [32m#<Cucumber::Events::Bus:0x00000003f73778[0m
+        @default_namespace[32m=[0m[31m[1;31m"[0m[31mCucumber::Events[1;31m"[0m[31m[0m,
+        @handlers[32m=[0m
+         {[31m[1;31m"[0m[31mCucumber::Events::StepMatch[1;31m"[0m[31m[0m=>
+           [[32m#<Proc:0x00000006aa0a40@C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m,
+            [32m#<Proc:0x000000040eb9e8@C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m],
+          [31m[1;31m"[0m[31mCucumber::Events::BeforeTestCase[1;31m"[0m[31m[0m=>[],
+          [31m[1;31m"[0m[31mCucumber::Events::BeforeTestStep[1;31m"[0m[31m[0m=>[],
+          [31m[1;31m"[0m[31mCucumber::Events::AfterTestStep[1;31m"[0m[31m[0m=>[]}[32m>[0m,
+      [33m:retry[0m=>[1;34m0[0m,
+      [33m:skip_profile_information[0m=>[1;36mnil[0m,
+      [33m:profile_loader[0m=>
+       [32m#<Cucumber::Cli::ProfileLoader:0x00000003506998[0m
+        @cucumber_erb[32m=[0m[31m[1;31m"[0m[31mdefault: --format html --out report.html --format pretty[1;35m\n[0m[31m[1;31m"[0m[31m[0m,
+        @cucumber_file[32m=[0m[31m[1;31m"[0m[31mcucumber.yml[1;31m"[0m[31m[0m,
+        @cucumber_yml[32m=[0m{[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m--format html --out report.html --format pretty[1;31m"[0m[31m[0m}[32m>[0m,
+      [33m:paths[0m=>[],
+      [33m:profiles[0m=>[[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m],
+      [33m:default_profile[0m=>[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m,
+      [33m:tag_expression[0m=>[32m#<Cucumber::Core::Gherkin::TagExpression:0x00000003f73ae8[0m @ands[32m=[0m[], @limits[32m=[0m{}[32m>[0m,
+      [33m:out_stream[0m=>[32m#<IO:<STDOUT>>[0m,
+      [33m:error_stream[0m=>[32m#<IO:<STDERR>>[0m,
+      [33m:snippet_generators[0m=>[[32m#<Cucumber::RbSupport::Snippet::Generator:0x00000003f734d0[0m[32m>[0m]}[32m>[0m,
+  @test_case[32m=[0m[32m#<Cucumber::Core::Test::Case: features/acesso_e_cadastro.feature:11>[0m[32m>[0m,
+ [32m#<struct Cucumber::Formatter::LegacyApi::Adapter[0m
+  formatter[32m=[0m
+   [32m#<Cucumber::Formatter::Pretty:0x00000006aa0c70[0m
+    @current_step[32m=[0m
+     [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+      step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/acesso_e_cadastro_steps.rb:17>[0m,
+      status[32m=[0m[33m:passed[0m,
+      duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x00000007374c48[0m @nanoseconds[32m=[0m[1;34m2346658189[0m[32m>[0m,
+      exception[32m=[0m[1;36mnil[0m,
+      indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x00000007ff3230[0m @widths[32m=[0m[[1;34m21[0m, [1;34m45[0m, [1;34m45[0m, [1;34m48[0m, [1;34m30[0m][32m>[0m,
+      background[32m=[0m[1;36mnil[0m,
+      step[32m=[0m[32m#<Cucumber::Core::Ast::Step "E : digitar os dados para cadastro de funcionario" (features/acesso_e_cadastro.feature:14)>[0m,
+      messages[32m=[0m[],
+      embeddings[32m=[0m[][32m>[0m,
+    @delayed_messages[32m=[0m[],
+    @exceptions[32m=[0m[],
+    @hide_this_step[32m=[0m[1;36mfalse[0m,
+    @indent[32m=[0m[1;34m6[0m,
+    @io[32m=[0m[32m#<IO:<STDOUT>>[0m,
+    @options[32m=[0m
+     [32m#<Cucumber::Cli::Options:0x00000006aa0ef0[0m
+      @default_profile[32m=[0m[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m,
+      @disable_profile_loading[32m=[0m[1;36mnil[0m,
+      @error_stream[32m=[0m[32m#<IO:<STDERR>>[0m,
+      @options[32m=[0m
+       {[33m:strict[0m=>[1;36mfalse[0m,
+        [33m:require[0m=>[],
+        [33m:dry_run[0m=>[1;36mfalse[0m,
+        [33m:formats[0m=>[[[31m[1;31m"[0m[31mpretty[1;31m"[0m[31m[0m, [32m#<IO:<STDOUT>>[0m], [[31m[1;31m"[0m[31mhtml[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mreport.html[1;31m"[0m[31m[0m]],
+        [33m:excludes[0m=>[],
+        [33m:tag_expressions[0m=>[],
+        [33m:name_regexps[0m=>[],
+        [33m:env_vars[0m=>{},
+        [33m:diff_enabled[0m=>[1;36mtrue[0m,
+        [33m:snippets[0m=>[1;36mtrue[0m,
+        [33m:source[0m=>[1;36mtrue[0m,
+        [33m:duration[0m=>[1;36mtrue[0m,
+        [33m:retry[0m=>[1;34m0[0m,
+        [33m:autoload_code_paths[0m=>[[31m[1;31m"[0m[31mfeatures/support[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mfeatures/step_definitions[1;31m"[0m[31m[0m],
+        [33m:filters[0m=>[],
+        [33m:fail_fast[0m=>[1;36mfalse[0m,
+        [33m:event_bus[0m=>
+         [32m#<Cucumber::Events::Bus:0x00000003f73778[0m
+          @default_namespace[32m=[0m[31m[1;31m"[0m[31mCucumber::Events[1;31m"[0m[31m[0m,
+          @handlers[32m=[0m
+           {[31m[1;31m"[0m[31mCucumber::Events::StepMatch[1;31m"[0m[31m[0m=>
+             [[32m#<Proc:0x00000006aa0a40@C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m,
+              [32m#<Proc:0x000000040eb9e8@C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m],
+            [31m[1;31m"[0m[31mCucumber::Events::BeforeTestCase[1;31m"[0m[31m[0m=>[],
+            [31m[1;31m"[0m[31mCucumber::Events::BeforeTestStep[1;31m"[0m[31m[0m=>[],
+            [31m[1;31m"[0m[31mCucumber::Events::AfterTestStep[1;31m"[0m[31m[0m=>[]}[32m>[0m,
+        [33m:skip_profile_information[0m=>[1;36mnil[0m,
+        [33m:profile_loader[0m=>
+         [32m#<Cucumber::Cli::ProfileLoader:0x00000003506998[0m
+          @cucumber_erb[32m=[0m[31m[1;31m"[0m[31mdefault: --format html --out report.html --format pretty[1;35m\n[0m[31m[1;31m"[0m[31m[0m,
+          @cucumber_file[32m=[0m[31m[1;31m"[0m[31mcucumber.yml[1;31m"[0m[31m[0m,
+          @cucumber_yml[32m=[0m{[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m--format html --out report.html --format pretty[1;31m"[0m[31m[0m}[32m>[0m,
+        [33m:paths[0m=>[],
+        [33m:profiles[0m=>[[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m],
+        [33m:default_profile[0m=>[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m,
+        [33m:tag_expression[0m=>[32m#<Cucumber::Core::Gherkin::TagExpression:0x00000003f73ae8[0m @ands[32m=[0m[], @limits[32m=[0m{}[32m>[0m,
+        [33m:out_stream[0m=>[32m#<IO:<STDOUT>>[0m,
+        [33m:error_stream[0m=>[32m#<IO:<STDERR>>[0m,
+        [33m:snippet_generators[0m=>[[32m#<Cucumber::RbSupport::Snippet::Generator:0x00000003f734d0[0m[32m>[0m]},
+      @out_stream[32m=[0m[32m#<IO:<STDOUT>>[0m,
+      @overridden_paths[32m=[0m[],
+      @profile_loader[32m=[0m
+       [32m#<Cucumber::Cli::ProfileLoader:0x00000003506998[0m
+        @cucumber_erb[32m=[0m[31m[1;31m"[0m[31mdefault: --format html --out report.html --format pretty[1;35m\n[0m[31m[1;31m"[0m[31m[0m,
+        @cucumber_file[32m=[0m[31m[1;31m"[0m[31mcucumber.yml[1;31m"[0m[31m[0m,
+        @cucumber_yml[32m=[0m{[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m--format html --out report.html --format pretty[1;31m"[0m[31m[0m}[32m>[0m,
+      @profiles[32m=[0m[[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m][32m>[0m,
+    @prefixes[32m=[0m{},
+    @previous_step_keyword[32m=[0m[31m[1;31m"[0m[31mQuando [1;31m"[0m[31m[0m,
+    @runtime[32m=[0m
+     [32m#<struct Cucumber::Formatter::LegacyApi::RuntimeFacade[0m
+      results[32m=[0m
+       [32m#<Cucumber::Formatter::LegacyApi::Results:0x00000006aa0d10[0m
+        @inserted_scenarios[32m=[0m{},
+        @inserted_steps[32m=[0m
+         {[1;34m58974720[0m=>
+           [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+            step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/acesso_e_cadastro_steps.rb:1>[0m,
+            status[32m=[0m[33m:passed[0m,
+            duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x0000000707ee30[0m @nanoseconds[32m=[0m[1;34m7490335695[0m[32m>[0m,
+            exception[32m=[0m[1;36mnil[0m,
+            indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x0000000707c6a8[0m @widths[32m=[0m[[1;34m21[0m, [1;34m45[0m, [1;34m45[0m, [1;34m48[0m, [1;34m30[0m][32m>[0m,
+            background[32m=[0m[1;36mnil[0m,
+            step[32m=[0m[32m#<Cucumber::Core::Ast::Step "Dado : que eu esteja na pagina inicial do site" (features/acesso_e_cadastro.feature:12)>[0m,
+            messages[32m=[0m[],
+            embeddings[32m=[0m[][32m>[0m,
+          [1;34m59374380[0m=>
+           [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+            step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/acesso_e_cadastro_steps.rb:10>[0m,
+            status[32m=[0m[33m:passed[0m,
+            duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x0000000712d2a0[0m @nanoseconds[32m=[0m[1;34m2898620764[0m[32m>[0m,
+            exception[32m=[0m[1;36mnil[0m,
+            indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x0000000713f8d8[0m @widths[32m=[0m[[1;34m21[0m, [1;34m45[0m, [1;34m45[0m, [1;34m48[0m, [1;34m30[0m][32m>[0m,
+            background[32m=[0m[1;36mnil[0m,
+            step[32m=[0m[32m#<Cucumber::Core::Ast::Step "Quando : eu acesso a tela de PMI para cadastro" (features/acesso_e_cadastro.feature:13)>[0m,
+            messages[32m=[0m[],
+            embeddings[32m=[0m[][32m>[0m,
+          [1;34m67082200[0m=>
+           [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+            step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/acesso_e_cadastro_steps.rb:17>[0m,
+            status[32m=[0m[33m:passed[0m,
+            duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x00000007374c48[0m @nanoseconds[32m=[0m[1;34m2346658189[0m[32m>[0m,
+            exception[32m=[0m[1;36mnil[0m,
+            indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x00000007ff3230[0m @widths[32m=[0m[[1;34m21[0m, [1;34m45[0m, [1;34m45[0m, [1;34m48[0m, [1;34m30[0m][32m>[0m,
+            background[32m=[0m[1;36mnil[0m,
+            step[32m=[0m[32m#<Cucumber::Core::Ast::Step "E : digitar os dados para cadastro de funcionario" (features/acesso_e_cadastro.feature:14)>[0m,
+            messages[32m=[0m[],
+            embeddings[32m=[0m[][32m>[0m},
+        @steps[32m=[0m
+         [[32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+           step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/acesso_e_cadastro_steps.rb:1>[0m,
+           status[32m=[0m[33m:passed[0m,
+           duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x0000000707ee30[0m @nanoseconds[32m=[0m[1;34m7490335695[0m[32m>[0m,
+           exception[32m=[0m[1;36mnil[0m,
+           indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x0000000707c6a8[0m @widths[32m=[0m[[1;34m21[0m, [1;34m45[0m, [1;34m45[0m, [1;34m48[0m, [1;34m30[0m][32m>[0m,
+           background[32m=[0m[1;36mnil[0m,
+           step[32m=[0m[32m#<Cucumber::Core::Ast::Step "Dado : que eu esteja na pagina inicial do site" (features/acesso_e_cadastro.feature:12)>[0m,
+           messages[32m=[0m[],
+           embeddings[32m=[0m[][32m>[0m,
+          [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+           step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/acesso_e_cadastro_steps.rb:10>[0m,
+           status[32m=[0m[33m:passed[0m,
+           duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x0000000712d2a0[0m @nanoseconds[32m=[0m[1;34m2898620764[0m[32m>[0m,
+           exception[32m=[0m[1;36mnil[0m,
+           indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x0000000713f8d8[0m @widths[32m=[0m[[1;34m21[0m, [1;34m45[0m, [1;34m45[0m, [1;34m48[0m, [1;34m30[0m][32m>[0m,
+           background[32m=[0m[1;36mnil[0m,
+           step[32m=[0m[32m#<Cucumber::Core::Ast::Step "Quando : eu acesso a tela de PMI para cadastro" (features/acesso_e_cadastro.feature:13)>[0m,
+           messages[32m=[0m[],
+           embeddings[32m=[0m[][32m>[0m,
+          [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+           step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/acesso_e_cadastro_steps.rb:17>[0m,
+           status[32m=[0m[33m:passed[0m,
+           duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x00000007374c48[0m @nanoseconds[32m=[0m[1;34m2346658189[0m[32m>[0m,
+           exception[32m=[0m[1;36mnil[0m,
+           indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x00000007ff3230[0m @widths[32m=[0m[[1;34m21[0m, [1;34m45[0m, [1;34m45[0m, [1;34m48[0m, [1;34m30[0m][32m>[0m,
+           background[32m=[0m[1;36mnil[0m,
+           step[32m=[0m[32m#<Cucumber::Core::Ast::Step "E : digitar os dados para cadastro de funcionario" (features/acesso_e_cadastro.feature:14)>[0m,
+           messages[32m=[0m[],
+           embeddings[32m=[0m[][32m>[0m][32m>[0m,
+      support_code[32m=[0m
+       [32m#<Cucumber::Runtime::SupportCode:0x00000003f73598[0m
+        @configuration[32m=[0m
+         [32m#<Cucumber::Configuration:0x00000003f73930[0m
+          @options[32m=[0m
+           {[33m:autoload_code_paths[0m=>[[31m[1;31m"[0m[31mfeatures/support[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mfeatures/step_definitions[1;31m"[0m[31m[0m],
+            [33m:filters[0m=>[],
+            [33m:strict[0m=>[1;36mfalse[0m,
+            [33m:require[0m=>[],
+            [33m:dry_run[0m=>[1;36mfalse[0m,
+            [33m:fail_fast[0m=>[1;36mfalse[0m,
+            [33m:formats[0m=>[[[31m[1;31m"[0m[31mpretty[1;31m"[0m[31m[0m, [32m#<IO:<STDOUT>>[0m], [[31m[1;31m"[0m[31mhtml[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mreport.html[1;31m"[0m[31m[0m]],
+            [33m:excludes[0m=>[],
+            [33m:tag_expressions[0m=>[],
+            [33m:name_regexps[0m=>[],
+            [33m:env_vars[0m=>{},
+            [33m:diff_enabled[0m=>[1;36mtrue[0m,
+            [33m:snippets[0m=>[1;36mtrue[0m,
+            [33m:source[0m=>[1;36mtrue[0m,
+            [33m:duration[0m=>[1;36mtrue[0m,
+            [33m:event_bus[0m=>
+             [32m#<Cucumber::Events::Bus:0x00000003f73778[0m
+              @default_namespace[32m=[0m[31m[1;31m"[0m[31mCucumber::Events[1;31m"[0m[31m[0m,
+              @handlers[32m=[0m
+               {[31m[1;31m"[0m[31mCucumber::Events::StepMatch[1;31m"[0m[31m[0m=>
+                 [[32m#<Proc:0x00000006aa0a40@C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m,
+                  [32m#<Proc:0x000000040eb9e8@C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m],
+                [31m[1;31m"[0m[31mCucumber::Events::BeforeTestCase[1;31m"[0m[31m[0m=>[],
+                [31m[1;31m"[0m[31mCucumber::Events::BeforeTestStep[1;31m"[0m[31m[0m=>[],
+                [31m[1;31m"[0m[31mCucumber::Events::AfterTestStep[1;31m"[0m[31m[0m=>[]}[32m>[0m,
+            [33m:retry[0m=>[1;34m0[0m,
+            [33m:skip_profile_information[0m=>[1;36mnil[0m,
+            [33m:profile_loader[0m=>
+             [32m#<Cucumber::Cli::ProfileLoader:0x00000003506998[0m
+              @cucumber_erb[32m=[0m[31m[1;31m"[0m[31mdefault: --format html --out report.html --format pretty[1;35m\n[0m[31m[1;31m"[0m[31m[0m,
+              @cucumber_file[32m=[0m[31m[1;31m"[0m[31mcucumber.yml[1;31m"[0m[31m[0m,
+              @cucumber_yml[32m=[0m{[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m--format html --out report.html --format pretty[1;31m"[0m[31m[0m}[32m>[0m,
+            [33m:paths[0m=>[],
+            [33m:profiles[0m=>[[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m],
+            [33m:default_profile[0m=>[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m,
+            [33m:tag_expression[0m=>[32m#<Cucumber::Core::Gherkin::TagExpression:0x00000003f73ae8[0m @ands[32m=[0m[], @limits[32m=[0m{}[32m>[0m,
+            [33m:out_stream[0m=>[32m#<IO:<STDOUT>>[0m,
+            [33m:error_stream[0m=>[32m#<IO:<STDERR>>[0m,
+            [33m:snippet_generators[0m=>[[32m#<Cucumber::RbSupport::Snippet::Generator:0x00000003f734d0[0m[32m>[0m]}[32m>[0m,
+        @ruby[32m=[0m
+         [32m#<Cucumber::RbSupport::RbLanguage:0x00000003f73520[0m
+          @available_step_definition_hash[32m=[0m
+           {[32m#<Cucumber::StepDefinitionLight:0x00000006a816b8[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mfeatures/step_definitions/acesso_e_cadastro_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m1[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^que eu esteja na pagina inicial do site$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x00000006a81078[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mfeatures/step_definitions/acesso_e_cadastro_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m10[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^eu acesso a tela de PMI para cadastro$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x00000006a80ad8[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mfeatures/step_definitions/acesso_e_cadastro_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m17[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^digitar os dados para cadastro de funcionario$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x00000006a804e8[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mfeatures/step_definitions/acesso_e_cadastro_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m25[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^eu efetuarei o cadastro$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x00000006a8baf0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mfeatures/step_definitions/consulta_e_alteracao_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m1[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^eu acesso a tela de PMI para consulta$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x00000006a8b550[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mfeatures/step_definitions/consulta_e_alteracao_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m11[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^alterar os dados do funcionario$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x00000006a8afb0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mfeatures/step_definitions/consulta_e_alteracao_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m15[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^eu confirmarei a alteração no cadastro$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m},
+          @current_world[32m=[0m
+           [32m#<Object+Capybara::RSpecMatchers+Capybara::DSL+RSpec::Matchers+Cucumber::RbSupport::RbWorld+PP::ObjectMixin+JSON::Ext::Generator::GeneratorMethods::Object+Kernel:0x2038a5c>[0m,
+          @hooks[32m=[0m
+           {[33m:after[0m=>
+             [[32m#<Cucumber::RbSupport::RbHook:0x00000005860df8[0m
+               @location[32m=[0m
+                [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+                 file[32m=[0m[31m[1;31m"[0m[31mcapybara-2.13.0/lib/capybara/cucumber.rb[1;31m"[0m[31m[0m,
+                 lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m8[0m}>[32m>[0m[32m>[0m,
+               @proc[32m=[0m[32m#<Proc:0x00000005860e98@C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/capybara-2.13.0/lib/capybara/cucumber.rb:8>[0m,
+               @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x00000003f73520[0m ...[32m>[0m,
+               @tag_expressions[32m=[0m[][32m>[0m],
+            [33m:before[0m=>
+             [[32m#<Cucumber::RbSupport::RbHook:0x00000005860768[0m
+               @location[32m=[0m
+                [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+                 file[32m=[0m[31m[1;31m"[0m[31mcapybara-2.13.0/lib/capybara/cucumber.rb[1;31m"[0m[31m[0m,
+                 lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m12[0m}>[32m>[0m[32m>[0m,
+               @proc[32m=[0m[32m#<Proc:0x00000005860858@C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/capybara-2.13.0/lib/capybara/cucumber.rb:12>[0m,
+               @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x00000003f73520[0m ...[32m>[0m,
+               @tag_expressions[32m=[0m[][32m>[0m,
+              [32m#<Cucumber::RbSupport::RbHook:0x00000005860218[0m
+               @location[32m=[0m
+                [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+                 file[32m=[0m[31m[1;31m"[0m[31mcapybara-2.13.0/lib/capybara/cucumber.rb[1;31m"[0m[31m[0m,
+                 lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m16[0m}>[32m>[0m[32m>[0m,
+               @proc[32m=[0m[32m#<Proc:0x00000005860268@C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/capybara-2.13.0/lib/capybara/cucumber.rb:16>[0m,
+               @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x00000003f73520[0m ...[32m>[0m,
+               @tag_expressions[32m=[0m[[31m[1;31m"[0m[31m@javascript[1;31m"[0m[31m[0m][32m>[0m,
+              [32m#<Cucumber::RbSupport::RbHook:0x0000000583bb48[0m
+               @location[32m=[0m
+                [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+                 file[32m=[0m[31m[1;31m"[0m[31mcapybara-2.13.0/lib/capybara/cucumber.rb[1;31m"[0m[31m[0m,
+                 lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m20[0m}>[32m>[0m[32m>[0m,
+               @proc[32m=[0m[32m#<Proc:0x0000000583bd28@C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/capybara-2.13.0/lib/capybara/cucumber.rb:20>[0m,
+               @rb_language[32m=[0m[32m#<Cucumber::RbSupport::RbLanguage:0x00000003f73520[0m ...[32m>[0m,
+               @tag_expressions[32m=[0m[][32m>[0m],
+            [33m:after_configuration[0m=>[],
+            [33m:after_step[0m=>[],
+            [33m:around[0m=>[]},
+          @invoked_step_definition_hash[32m=[0m
+           {[32m#<Cucumber::StepDefinitionLight:0x00000006c5fc28[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mfeatures/step_definitions/acesso_e_cadastro_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m1[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^que eu esteja na pagina inicial do site$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x00000006c5f368[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mfeatures/step_definitions/acesso_e_cadastro_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m10[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^eu acesso a tela de PMI para cadastro$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x00000006c5ebc0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mfeatures/step_definitions/acesso_e_cadastro_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m17[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^digitar os dados para cadastro de funcionario$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m,
+            [32m#<Cucumber::StepDefinitionLight:0x00000006c5e3f0[0m
+             @location[32m=[0m
+              [32m#<struct Cucumber::Core::Ast::Location::Precise[0m
+               file[32m=[0m[31m[1;31m"[0m[31mfeatures/step_definitions/acesso_e_cadastro_steps.rb[1;31m"[0m[31m[0m,
+               lines[32m=[0m[32m#<struct Cucumber::Core::Ast::Location::Lines[0m data[32m=[0m[32m#<Set: {[0m[1;34m25[0m}>[32m>[0m[32m>[0m,
+             @regexp_source[32m=[0m[31m[1;31m"[0m[31m/^eu efetuarei o cadastro$/[1;31m"[0m[31m[0m[32m>[0m=>[1;36mnil[0m},
+          @runtime[32m=[0m
+           [32m#<Cucumber::Runtime::ForProgrammingLanguages:0x00000003f73570[0m
+            @support_code[32m=[0m[32m#<Cucumber::Runtime::SupportCode:0x00000003f73598[0m ...[32m>[0m,
+            @user_interface[32m=[0m
+             [32m#<Cucumber::Runtime:0x00000003f73958[0m
+              @configuration[32m=[0m
+               [32m#<Cucumber::Configuration:0x00000003f73930[0m
+                @options[32m=[0m
+                 {[33m:autoload_code_paths[0m=>[[31m[1;31m"[0m[31mfeatures/support[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mfeatures/step_definitions[1;31m"[0m[31m[0m],
+                  [33m:filters[0m=>[],
+                  [33m:strict[0m=>[1;36mfalse[0m,
+                  [33m:require[0m=>[],
+                  [33m:dry_run[0m=>[1;36mfalse[0m,
+                  [33m:fail_fast[0m=>[1;36mfalse[0m,
+                  [33m:formats[0m=>[[[31m[1;31m"[0m[31mpretty[1;31m"[0m[31m[0m, [32m#<IO:<STDOUT>>[0m], [[31m[1;31m"[0m[31mhtml[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mreport.html[1;31m"[0m[31m[0m]],
+                  [33m:excludes[0m=>[],
+                  [33m:tag_expressions[0m=>[],
+                  [33m:name_regexps[0m=>[],
+                  [33m:env_vars[0m=>{},
+                  [33m:diff_enabled[0m=>[1;36mtrue[0m,
+                  [33m:snippets[0m=>[1;36mtrue[0m,
+                  [33m:source[0m=>[1;36mtrue[0m,
+                  [33m:duration[0m=>[1;36mtrue[0m,
+                  [33m:event_bus[0m=>
+                   [32m#<Cucumber::Events::Bus:0x00000003f73778[0m
+                    @default_namespace[32m=[0m[31m[1;31m"[0m[31mCucumber::Events[1;31m"[0m[31m[0m,
+                    @handlers[32m=[0m
+                     {[31m[1;31m"[0m[31mCucumber::Events::StepMatch[1;31m"[0m[31m[0m=>
+                       [[32m#<Proc:0x00000006aa0a40@C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m,
+                        [32m#<Proc:0x000000040eb9e8@C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m],
+                      [31m[1;31m"[0m[31mCucumber::Events::BeforeTestCase[1;31m"[0m[31m[0m=>[],
+                      [31m[1;31m"[0m[31mCucumber::Events::BeforeTestStep[1;31m"[0m[31m[0m=>[],
+                      [31m[1;31m"[0m[31mCucumber::Events::AfterTestStep[1;31m"[0m[31m[0m=>[]}[32m>[0m,
+                  [33m:retry[0m=>[1;34m0[0m,
+                  [33m:skip_profile_information[0m=>[1;36mnil[0m,
+                  [33m:profile_loader[0m=>
+                   [32m#<Cucumber::Cli::ProfileLoader:0x00000003506998[0m
+                    @cucumber_erb[32m=[0m[31m[1;31m"[0m[31mdefault: --format html --out report.html --format pretty[1;35m\n[0m[31m[1;31m"[0m[31m[0m,
+                    @cucumber_file[32m=[0m[31m[1;31m"[0m[31mcucumber.yml[1;31m"[0m[31m[0m,
+                    @cucumber_yml[32m=[0m{[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m--format html --out report.html --format pretty[1;31m"[0m[31m[0m}[32m>[0m,
+                  [33m:paths[0m=>[],
+                  [33m:profiles[0m=>[[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m],
+                  [33m:default_profile[0m=>[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m,
+                  [33m:tag_expression[0m=>[32m#<Cucumber::Core::Gherkin::TagExpression:0x00000003f73ae8[0m @ands[32m=[0m[], @limits[32m=[0m{}[32m>[0m,
+                  [33m:out_stream[0m=>[32m#<IO:<STDOUT>>[0m,
+                  [33m:error_stream[0m=>[32m#<IO:<STDERR>>[0m,
+                  [33m:snippet_generators[0m=>[[32m#<Cucumber::RbSupport::Snippet::Generator:0x00000003f734d0[0m[32m>[0m]}[32m>[0m,
+              @event_bus_report[32m=[0m
+               [32m#<Cucumber::Formatter::EventBusReport:0x00000006a8a088[0m
+                @config[32m=[0m
+                 [32m#<Cucumber::Configuration:0x00000003f73930[0m
+                  @options[32m=[0m
+                   {[33m:autoload_code_paths[0m=>[[31m[1;31m"[0m[31mfeatures/support[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mfeatures/step_definitions[1;31m"[0m[31m[0m],
+                    [33m:filters[0m=>[],
+                    [33m:strict[0m=>[1;36mfalse[0m,
+                    [33m:require[0m=>[],
+                    [33m:dry_run[0m=>[1;36mfalse[0m,
+                    [33m:fail_fast[0m=>[1;36mfalse[0m,
+                    [33m:formats[0m=>[[[31m[1;31m"[0m[31mpretty[1;31m"[0m[31m[0m, [32m#<IO:<STDOUT>>[0m], [[31m[1;31m"[0m[31mhtml[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mreport.html[1;31m"[0m[31m[0m]],
+                    [33m:excludes[0m=>[],
+                    [33m:tag_expressions[0m=>[],
+                    [33m:name_regexps[0m=>[],
+                    [33m:env_vars[0m=>{},
+                    [33m:diff_enabled[0m=>[1;36mtrue[0m,
+                    [33m:snippets[0m=>[1;36mtrue[0m,
+                    [33m:source[0m=>[1;36mtrue[0m,
+                    [33m:duration[0m=>[1;36mtrue[0m,
+                    [33m:event_bus[0m=>
+                     [32m#<Cucumber::Events::Bus:0x00000003f73778[0m
+                      @default_namespace[32m=[0m[31m[1;31m"[0m[31mCucumber::Events[1;31m"[0m[31m[0m,
+                      @handlers[32m=[0m
+                       {[31m[1;31m"[0m[31mCucumber::Events::StepMatch[1;31m"[0m[31m[0m=>
+                         [[32m#<Proc:0x00000006aa0a40@C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m,
+                          [32m#<Proc:0x000000040eb9e8@C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m],
+                        [31m[1;31m"[0m[31mCucumber::Events::BeforeTestCase[1;31m"[0m[31m[0m=>[],
+                        [31m[1;31m"[0m[31mCucumber::Events::BeforeTestStep[1;31m"[0m[31m[0m=>[],
+                        [31m[1;31m"[0m[31mCucumber::Events::AfterTestStep[1;31m"[0m[31m[0m=>[]}[32m>[0m,
+                    [33m:retry[0m=>[1;34m0[0m,
+                    [33m:skip_profile_information[0m=>[1;36mnil[0m,
+                    [33m:profile_loader[0m=>
+                     [32m#<Cucumber::Cli::ProfileLoader:0x00000003506998[0m
+                      @cucumber_erb[32m=[0m[31m[1;31m"[0m[31mdefault: --format html --out report.html --format pretty[1;35m\n[0m[31m[1;31m"[0m[31m[0m,
+                      @cucumber_file[32m=[0m[31m[1;31m"[0m[31mcucumber.yml[1;31m"[0m[31m[0m,
+                      @cucumber_yml[32m=[0m{[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m--format html --out report.html --format pretty[1;31m"[0m[31m[0m}[32m>[0m,
+                    [33m:paths[0m=>[],
+                    [33m:profiles[0m=>[[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m],
+                    [33m:default_profile[0m=>[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m,
+                    [33m:tag_expression[0m=>[32m#<Cucumber::Core::Gherkin::TagExpression:0x00000003f73ae8[0m @ands[32m=[0m[], @limits[32m=[0m{}[32m>[0m,
+                    [33m:out_stream[0m=>[32m#<IO:<STDOUT>>[0m,
+                    [33m:error_stream[0m=>[32m#<IO:<STDERR>>[0m,
+                    [33m:snippet_generators[0m=>[[32m#<Cucumber::RbSupport::Snippet::Generator:0x00000003f734d0[0m[32m>[0m]}[32m>[0m,
+                @test_case[32m=[0m[32m#<Cucumber::Core::Test::Case: features/acesso_e_cadastro.feature:11>[0m[32m>[0m,
+              @features[32m=[0m
+               [[32m#<Cucumber::Core::Gherkin::Document:0x00000006be7f48[0m
+                 @body[32m=[0m
+                  [31m[1;31m"[0m[31m#language: pt[1;35m\n[0m[31m#utf-8[1;35m\n[0m[31m[1;35m\n[0m[31m@cadastro[1;35m\n[0m[31mFuncionalidade: Acessar e cadastrar usuario[1;35m\n[0m[31mEu como usuario de um determinado site[1;35m\n[0m[31mQuero me cadastrar como usuario administrador[1;35m\n[0m[31mPara ter acesso a cadastro e consulta de funcionarios[1;35m\n[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31mCenario: Efetuar login[1;35m\n[0m[31mDado que eu esteja na pagina inicial do site[1;35m\n[0m[31mQuando eu acesso a tela de PMI para cadastro[1;35m\n[0m[31mE digitar os dados para cadastro de funcionario[1;35m\n[0m[31mEntão eu efetuarei o cadastro[1;35m\n[0m[31m[1;31m"[0m[31m[0m,
+                 @uri[32m=[0m[31m[1;31m"[0m[31mfeatures/acesso_e_cadastro.feature[1;31m"[0m[31m[0m[32m>[0m,
+                [32m#<Cucumber::Core::Gherkin::Document:0x00000006be7c50[0m
+                 @body[32m=[0m
+                  [31m[1;31m"[0m[31m#language: pt[1;35m\n[0m[31m#utf-8[1;35m\n[0m[31m[1;35m\n[0m[31m@consulta[1;35m\n[0m[31mFuncionalidade: Alterar dados de usuario cadastrado[1;35m\n[0m[31mEu como usuario administrador[1;35m\n[0m[31mQuero consultar os dados dos usuarios cadastrados[1;35m\n[0m[31mPara alterar os dados cadastrais[1;35m\n[0m[31m[1;35m\n[0m[31m[1;35m\n[0m[31mCenario: Efetuar login[1;35m\n[0m[31mDado que eu esteja na pagina inicial do site[1;35m\n[0m[31mQuando eu acesso a tela de PMI para consulta[1;35m\n[0m[31mE alterar os dados do funcionario[1;35m\n[0m[31mEntão eu confirmarei a alteração no cadastro[1;35m\n[0m[31m[1;31m"[0m[31m[0m,
+                 @uri[32m=[0m[31m[1;31m"[0m[31mfeatures/consulta_e_alteracao.feature[1;31m"[0m[31m[0m[32m>[0m],
+              @filespecs[32m=[0m
+               [32m#<Cucumber::FileSpecs:0x000000040ea958[0m
+                @file_specs[32m=[0m
+                 [[32m#<Cucumber::FileSpecs::FileSpec:0x000000040ea4f8[0m @file[32m=[0m[31m[1;31m"[0m[31mfeatures/acesso_e_cadastro.feature[1;31m"[0m[31m[0m, @lines[32m=[0m[][32m>[0m,
+                  [32m#<Cucumber::FileSpecs::FileSpec:0x000000040e9b70[0m @file[32m=[0m[31m[1;31m"[0m[31mfeatures/consulta_e_alteracao.feature[1;31m"[0m[31m[0m, @lines[32m=[0m[][32m>[0m][32m>[0m,
+              @formatters[32m=[0m
+               [[32m#<struct Cucumber::Formatter::LegacyApi::Adapter:...>[0m,
+                [32m#<struct Cucumber::Formatter::LegacyApi::Adapter[0m
+                 formatter[32m=[0m
+                  [32m#<Cucumber::Formatter::Html:0x00000006bb8068[0m
+                   @buffer[32m=[0m{},
+                   @builder[32m=[0m,
+                   @delayed_messages[32m=[0m[],
+                   @exceptions[32m=[0m[],
+                   @feature_number[32m=[0m[1;34m0[0m,
+                   @header_red[32m=[0m[1;36mnil[0m,
+                   @hide_this_step[32m=[0m[1;36mfalse[0m,
+                   @img_id[32m=[0m[1;34m0[0m,
+                   @in_scenario_outline[32m=[0m[1;36mfalse[0m,
+                   @inside_outline[32m=[0m[1;36mfalse[0m,
+                   @io[32m=[0m[32m#<File:report.html>[0m,
+                   @listing_background[32m=[0m[1;36mfalse[0m,
+                   @options[32m=[0m
+                    [32m#<Cucumber::Cli::Options:0x00000006bb82e8[0m
+                     @default_profile[32m=[0m[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m,
+                     @disable_profile_loading[32m=[0m[1;36mnil[0m,
+                     @error_stream[32m=[0m[32m#<IO:<STDERR>>[0m,
+                     @options[32m=[0m
+                      {[33m:strict[0m=>[1;36mfalse[0m,
+                       [33m:require[0m=>[],
+                       [33m:dry_run[0m=>[1;36mfalse[0m,
+                       [33m:formats[0m=>[[[31m[1;31m"[0m[31mpretty[1;31m"[0m[31m[0m, [32m#<IO:<STDOUT>>[0m], [[31m[1;31m"[0m[31mhtml[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mreport.html[1;31m"[0m[31m[0m]],
+                       [33m:excludes[0m=>[],
+                       [33m:tag_expressions[0m=>[],
+                       [33m:name_regexps[0m=>[],
+                       [33m:env_vars[0m=>{},
+                       [33m:diff_enabled[0m=>[1;36mtrue[0m,
+                       [33m:snippets[0m=>[1;36mtrue[0m,
+                       [33m:source[0m=>[1;36mtrue[0m,
+                       [33m:duration[0m=>[1;36mtrue[0m,
+                       [33m:retry[0m=>[1;34m0[0m,
+                       [33m:autoload_code_paths[0m=>[[31m[1;31m"[0m[31mfeatures/support[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mfeatures/step_definitions[1;31m"[0m[31m[0m],
+                       [33m:filters[0m=>[],
+                       [33m:fail_fast[0m=>[1;36mfalse[0m,
+                       [33m:event_bus[0m=>
+                        [32m#<Cucumber::Events::Bus:0x00000003f73778[0m
+                         @default_namespace[32m=[0m[31m[1;31m"[0m[31mCucumber::Events[1;31m"[0m[31m[0m,
+                         @handlers[32m=[0m
+                          {[31m[1;31m"[0m[31mCucumber::Events::StepMatch[1;31m"[0m[31m[0m=>
+                            [[32m#<Proc:0x00000006aa0a40@C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m,
+                             [32m#<Proc:0x000000040eb9e8@C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m],
+                           [31m[1;31m"[0m[31mCucumber::Events::BeforeTestCase[1;31m"[0m[31m[0m=>[],
+                           [31m[1;31m"[0m[31mCucumber::Events::BeforeTestStep[1;31m"[0m[31m[0m=>[],
+                           [31m[1;31m"[0m[31mCucumber::Events::AfterTestStep[1;31m"[0m[31m[0m=>[]}[32m>[0m,
+                       [33m:skip_profile_information[0m=>[1;36mnil[0m,
+                       [33m:profile_loader[0m=>
+                        [32m#<Cucumber::Cli::ProfileLoader:0x00000003506998[0m
+                         @cucumber_erb[32m=[0m[31m[1;31m"[0m[31mdefault: --format html --out report.html --format pretty[1;35m\n[0m[31m[1;31m"[0m[31m[0m,
+                         @cucumber_file[32m=[0m[31m[1;31m"[0m[31mcucumber.yml[1;31m"[0m[31m[0m,
+                         @cucumber_yml[32m=[0m{[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m--format html --out report.html --format pretty[1;31m"[0m[31m[0m}[32m>[0m,
+                       [33m:paths[0m=>[],
+                       [33m:profiles[0m=>[[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m],
+                       [33m:default_profile[0m=>[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m,
+                       [33m:tag_expression[0m=>[32m#<Cucumber::Core::Gherkin::TagExpression:0x00000003f73ae8[0m @ands[32m=[0m[], @limits[32m=[0m{}[32m>[0m,
+                       [33m:out_stream[0m=>[32m#<IO:<STDOUT>>[0m,
+                       [33m:error_stream[0m=>[32m#<IO:<STDERR>>[0m,
+                       [33m:snippet_generators[0m=>[[32m#<Cucumber::RbSupport::Snippet::Generator:0x00000003f734d0[0m[32m>[0m]},
+                     @out_stream[32m=[0m[32m#<IO:<STDOUT>>[0m,
+                     @overridden_paths[32m=[0m[],
+                     @profile_loader[32m=[0m
+                      [32m#<Cucumber::Cli::ProfileLoader:0x00000003506998[0m
+                       @cucumber_erb[32m=[0m[31m[1;31m"[0m[31mdefault: --format html --out report.html --format pretty[1;35m\n[0m[31m[1;31m"[0m[31m[0m,
+                       @cucumber_file[32m=[0m[31m[1;31m"[0m[31mcucumber.yml[1;31m"[0m[31m[0m,
+                       @cucumber_yml[32m=[0m{[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m--format html --out report.html --format pretty[1;31m"[0m[31m[0m}[32m>[0m,
+                     @profiles[32m=[0m[[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m][32m>[0m,
+                   @previous_step_keyword[32m=[0m[31m[1;31m"[0m[31mQuando [1;31m"[0m[31m[0m,
+                   @runtime[32m=[0m
+                    [32m#<struct Cucumber::Formatter::LegacyApi::RuntimeFacade[0m
+                     results[32m=[0m
+                      [32m#<Cucumber::Formatter::LegacyApi::Results:0x00000006bb8108[0m
+                       @inserted_scenarios[32m=[0m{},
+                       @inserted_steps[32m=[0m
+                        {[1;34m59013580[0m=>
+                          [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                           step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/acesso_e_cadastro_steps.rb:1>[0m,
+                           status[32m=[0m[33m:passed[0m,
+                           duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x0000000707ee30[0m @nanoseconds[32m=[0m[1;34m7490335695[0m[32m>[0m,
+                           exception[32m=[0m[1;36mnil[0m,
+                           indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x0000000708f5f0[0m @widths[32m=[0m[[1;34m21[0m, [1;34m45[0m, [1;34m45[0m, [1;34m48[0m, [1;34m30[0m][32m>[0m,
+                           background[32m=[0m[1;36mnil[0m,
+                           step[32m=[0m[32m#<Cucumber::Core::Ast::Step "Dado : que eu esteja na pagina inicial do site" (features/acesso_e_cadastro.feature:12)>[0m,
+                           messages[32m=[0m[],
+                           embeddings[32m=[0m[][32m>[0m,
+                         [1;34m59368000[0m=>
+                          [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                           step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/acesso_e_cadastro_steps.rb:10>[0m,
+                           status[32m=[0m[33m:passed[0m,
+                           duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x0000000712d2a0[0m @nanoseconds[32m=[0m[1;34m2898620764[0m[32m>[0m,
+                           exception[32m=[0m[1;36mnil[0m,
+                           indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x0000000713c6d8[0m @widths[32m=[0m[[1;34m21[0m, [1;34m45[0m, [1;34m45[0m, [1;34m48[0m, [1;34m30[0m][32m>[0m,
+                           background[32m=[0m[1;36mnil[0m,
+                           step[32m=[0m[32m#<Cucumber::Core::Ast::Step "Quando : eu acesso a tela de PMI para cadastro" (features/acesso_e_cadastro.feature:13)>[0m,
+                           messages[32m=[0m[],
+                           embeddings[32m=[0m[][32m>[0m,
+                         [1;34m25559260[0m=>
+                          [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                           step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/acesso_e_cadastro_steps.rb:17>[0m,
+                           status[32m=[0m[33m:passed[0m,
+                           duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x00000007374c48[0m @nanoseconds[32m=[0m[1;34m2346658189[0m[32m>[0m,
+                           exception[32m=[0m[1;36mnil[0m,
+                           indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x00000007ff0030[0m @widths[32m=[0m[[1;34m21[0m, [1;34m45[0m, [1;34m45[0m, [1;34m48[0m, [1;34m30[0m][32m>[0m,
+                           background[32m=[0m[1;36mnil[0m,
+                           step[32m=[0m[32m#<Cucumber::Core::Ast::Step "E : digitar os dados para cadastro de funcionario" (features/acesso_e_cadastro.feature:14)>[0m,
+                           messages[32m=[0m[],
+                           embeddings[32m=[0m[][32m>[0m},
+                       @steps[32m=[0m
+                        [[32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                          step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/acesso_e_cadastro_steps.rb:1>[0m,
+                          status[32m=[0m[33m:passed[0m,
+                          duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x0000000707ee30[0m @nanoseconds[32m=[0m[1;34m7490335695[0m[32m>[0m,
+                          exception[32m=[0m[1;36mnil[0m,
+                          indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x0000000708f5f0[0m @widths[32m=[0m[[1;34m21[0m, [1;34m45[0m, [1;34m45[0m, [1;34m48[0m, [1;34m30[0m][32m>[0m,
+                          background[32m=[0m[1;36mnil[0m,
+                          step[32m=[0m[32m#<Cucumber::Core::Ast::Step "Dado : que eu esteja na pagina inicial do site" (features/acesso_e_cadastro.feature:12)>[0m,
+                          messages[32m=[0m[],
+                          embeddings[32m=[0m[][32m>[0m,
+                         [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                          step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/acesso_e_cadastro_steps.rb:10>[0m,
+                          status[32m=[0m[33m:passed[0m,
+                          duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x0000000712d2a0[0m @nanoseconds[32m=[0m[1;34m2898620764[0m[32m>[0m,
+                          exception[32m=[0m[1;36mnil[0m,
+                          indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x0000000713c6d8[0m @widths[32m=[0m[[1;34m21[0m, [1;34m45[0m, [1;34m45[0m, [1;34m48[0m, [1;34m30[0m][32m>[0m,
+                          background[32m=[0m[1;36mnil[0m,
+                          step[32m=[0m[32m#<Cucumber::Core::Ast::Step "Quando : eu acesso a tela de PMI para cadastro" (features/acesso_e_cadastro.feature:13)>[0m,
+                          messages[32m=[0m[],
+                          embeddings[32m=[0m[][32m>[0m,
+                         [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                          step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/acesso_e_cadastro_steps.rb:17>[0m,
+                          status[32m=[0m[33m:passed[0m,
+                          duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x00000007374c48[0m @nanoseconds[32m=[0m[1;34m2346658189[0m[32m>[0m,
+                          exception[32m=[0m[1;36mnil[0m,
+                          indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x00000007ff0030[0m @widths[32m=[0m[[1;34m21[0m, [1;34m45[0m, [1;34m45[0m, [1;34m48[0m, [1;34m30[0m][32m>[0m,
+                          background[32m=[0m[1;36mnil[0m,
+                          step[32m=[0m[32m#<Cucumber::Core::Ast::Step "E : digitar os dados para cadastro de funcionario" (features/acesso_e_cadastro.feature:14)>[0m,
+                          messages[32m=[0m[],
+                          embeddings[32m=[0m[][32m>[0m][32m>[0m,
+                     support_code[32m=[0m[32m#<Cucumber::Runtime::SupportCode:0x00000003f73598[0m ...[32m>[0m,
+                     configuration[32m=[0m
+                      [32m#<Cucumber::Configuration:0x00000003f73930[0m
+                       @options[32m=[0m
+                        {[33m:autoload_code_paths[0m=>[[31m[1;31m"[0m[31mfeatures/support[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mfeatures/step_definitions[1;31m"[0m[31m[0m],
+                         [33m:filters[0m=>[],
+                         [33m:strict[0m=>[1;36mfalse[0m,
+                         [33m:require[0m=>[],
+                         [33m:dry_run[0m=>[1;36mfalse[0m,
+                         [33m:fail_fast[0m=>[1;36mfalse[0m,
+                         [33m:formats[0m=>[[[31m[1;31m"[0m[31mpretty[1;31m"[0m[31m[0m, [32m#<IO:<STDOUT>>[0m], [[31m[1;31m"[0m[31mhtml[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mreport.html[1;31m"[0m[31m[0m]],
+                         [33m:excludes[0m=>[],
+                         [33m:tag_expressions[0m=>[],
+                         [33m:name_regexps[0m=>[],
+                         [33m:env_vars[0m=>{},
+                         [33m:diff_enabled[0m=>[1;36mtrue[0m,
+                         [33m:snippets[0m=>[1;36mtrue[0m,
+                         [33m:source[0m=>[1;36mtrue[0m,
+                         [33m:duration[0m=>[1;36mtrue[0m,
+                         [33m:event_bus[0m=>
+                          [32m#<Cucumber::Events::Bus:0x00000003f73778[0m
+                           @default_namespace[32m=[0m[31m[1;31m"[0m[31mCucumber::Events[1;31m"[0m[31m[0m,
+                           @handlers[32m=[0m
+                            {[31m[1;31m"[0m[31mCucumber::Events::StepMatch[1;31m"[0m[31m[0m=>
+                              [[32m#<Proc:0x00000006aa0a40@C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m,
+                               [32m#<Proc:0x000000040eb9e8@C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m],
+                             [31m[1;31m"[0m[31mCucumber::Events::BeforeTestCase[1;31m"[0m[31m[0m=>[],
+                             [31m[1;31m"[0m[31mCucumber::Events::BeforeTestStep[1;31m"[0m[31m[0m=>[],
+                             [31m[1;31m"[0m[31mCucumber::Events::AfterTestStep[1;31m"[0m[31m[0m=>[]}[32m>[0m,
+                         [33m:retry[0m=>[1;34m0[0m,
+                         [33m:skip_profile_information[0m=>[1;36mnil[0m,
+                         [33m:profile_loader[0m=>
+                          [32m#<Cucumber::Cli::ProfileLoader:0x00000003506998[0m
+                           @cucumber_erb[32m=[0m[31m[1;31m"[0m[31mdefault: --format html --out report.html --format pretty[1;35m\n[0m[31m[1;31m"[0m[31m[0m,
+                           @cucumber_file[32m=[0m[31m[1;31m"[0m[31mcucumber.yml[1;31m"[0m[31m[0m,
+                           @cucumber_yml[32m=[0m{[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m--format html --out report.html --format pretty[1;31m"[0m[31m[0m}[32m>[0m,
+                         [33m:paths[0m=>[],
+                         [33m:profiles[0m=>[[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m],
+                         [33m:default_profile[0m=>[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m,
+                         [33m:tag_expression[0m=>[32m#<Cucumber::Core::Gherkin::TagExpression:0x00000003f73ae8[0m @ands[32m=[0m[], @limits[32m=[0m{}[32m>[0m,
+                         [33m:out_stream[0m=>[32m#<IO:<STDOUT>>[0m,
+                         [33m:error_stream[0m=>[32m#<IO:<STDERR>>[0m,
+                         [33m:snippet_generators[0m=>[[32m#<Cucumber::RbSupport::Snippet::Generator:0x00000003f734d0[0m[32m>[0m]}[32m>[0m[32m>[0m,
+                   @scenario_number[32m=[0m[1;34m1[0m,
+                   @scenario_red[32m=[0m[1;36mfalse[0m,
+                   @skip_step[32m=[0m[1;36mnil[0m,
+                   @status[32m=[0m[33m:passed[0m,
+                   @step[32m=[0m
+                    [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                     step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/acesso_e_cadastro_steps.rb:17>[0m,
+                     status[32m=[0m[33m:passed[0m,
+                     duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x00000007374c48[0m @nanoseconds[32m=[0m[1;34m2346658189[0m[32m>[0m,
+                     exception[32m=[0m[1;36mnil[0m,
+                     indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x00000007ff0030[0m @widths[32m=[0m[[1;34m21[0m, [1;34m45[0m, [1;34m45[0m, [1;34m48[0m, [1;34m30[0m][32m>[0m,
+                     background[32m=[0m[1;36mnil[0m,
+                     step[32m=[0m[32m#<Cucumber::Core::Ast::Step "E : digitar os dados para cadastro de funcionario" (features/acesso_e_cadastro.feature:14)>[0m,
+                     messages[32m=[0m[],
+                     embeddings[32m=[0m[][32m>[0m,
+                   @step_count[32m=[0m[1;34m0[0m,
+                   @step_id[32m=[0m[1;36mnil[0m,
+                   @step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/acesso_e_cadastro_steps.rb:17>[0m,
+                   @step_number[32m=[0m[1;34m3[0m,
+                   @tag_spacer[32m=[0m[1;36mnil[0m,
+                   @text_id[32m=[0m[1;34m0[0m[32m>[0m,
+                 results[32m=[0m
+                  [32m#<Cucumber::Formatter::LegacyApi::Results:0x00000006bb8108[0m
+                   @inserted_scenarios[32m=[0m{},
+                   @inserted_steps[32m=[0m
+                    {[1;34m59013580[0m=>
+                      [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                       step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/acesso_e_cadastro_steps.rb:1>[0m,
+                       status[32m=[0m[33m:passed[0m,
+                       duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x0000000707ee30[0m @nanoseconds[32m=[0m[1;34m7490335695[0m[32m>[0m,
+                       exception[32m=[0m[1;36mnil[0m,
+                       indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x0000000708f5f0[0m @widths[32m=[0m[[1;34m21[0m, [1;34m45[0m, [1;34m45[0m, [1;34m48[0m, [1;34m30[0m][32m>[0m,
+                       background[32m=[0m[1;36mnil[0m,
+                       step[32m=[0m[32m#<Cucumber::Core::Ast::Step "Dado : que eu esteja na pagina inicial do site" (features/acesso_e_cadastro.feature:12)>[0m,
+                       messages[32m=[0m[],
+                       embeddings[32m=[0m[][32m>[0m,
+                     [1;34m59368000[0m=>
+                      [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                       step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/acesso_e_cadastro_steps.rb:10>[0m,
+                       status[32m=[0m[33m:passed[0m,
+                       duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x0000000712d2a0[0m @nanoseconds[32m=[0m[1;34m2898620764[0m[32m>[0m,
+                       exception[32m=[0m[1;36mnil[0m,
+                       indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x0000000713c6d8[0m @widths[32m=[0m[[1;34m21[0m, [1;34m45[0m, [1;34m45[0m, [1;34m48[0m, [1;34m30[0m][32m>[0m,
+                       background[32m=[0m[1;36mnil[0m,
+                       step[32m=[0m[32m#<Cucumber::Core::Ast::Step "Quando : eu acesso a tela de PMI para cadastro" (features/acesso_e_cadastro.feature:13)>[0m,
+                       messages[32m=[0m[],
+                       embeddings[32m=[0m[][32m>[0m,
+                     [1;34m25559260[0m=>
+                      [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                       step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/acesso_e_cadastro_steps.rb:17>[0m,
+                       status[32m=[0m[33m:passed[0m,
+                       duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x00000007374c48[0m @nanoseconds[32m=[0m[1;34m2346658189[0m[32m>[0m,
+                       exception[32m=[0m[1;36mnil[0m,
+                       indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x00000007ff0030[0m @widths[32m=[0m[[1;34m21[0m, [1;34m45[0m, [1;34m45[0m, [1;34m48[0m, [1;34m30[0m][32m>[0m,
+                       background[32m=[0m[1;36mnil[0m,
+                       step[32m=[0m[32m#<Cucumber::Core::Ast::Step "E : digitar os dados para cadastro de funcionario" (features/acesso_e_cadastro.feature:14)>[0m,
+                       messages[32m=[0m[],
+                       embeddings[32m=[0m[][32m>[0m},
+                   @steps[32m=[0m
+                    [[32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                      step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/acesso_e_cadastro_steps.rb:1>[0m,
+                      status[32m=[0m[33m:passed[0m,
+                      duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x0000000707ee30[0m @nanoseconds[32m=[0m[1;34m7490335695[0m[32m>[0m,
+                      exception[32m=[0m[1;36mnil[0m,
+                      indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x0000000708f5f0[0m @widths[32m=[0m[[1;34m21[0m, [1;34m45[0m, [1;34m45[0m, [1;34m48[0m, [1;34m30[0m][32m>[0m,
+                      background[32m=[0m[1;36mnil[0m,
+                      step[32m=[0m[32m#<Cucumber::Core::Ast::Step "Dado : que eu esteja na pagina inicial do site" (features/acesso_e_cadastro.feature:12)>[0m,
+                      messages[32m=[0m[],
+                      embeddings[32m=[0m[][32m>[0m,
+                     [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                      step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/acesso_e_cadastro_steps.rb:10>[0m,
+                      status[32m=[0m[33m:passed[0m,
+                      duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x0000000712d2a0[0m @nanoseconds[32m=[0m[1;34m2898620764[0m[32m>[0m,
+                      exception[32m=[0m[1;36mnil[0m,
+                      indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x0000000713c6d8[0m @widths[32m=[0m[[1;34m21[0m, [1;34m45[0m, [1;34m45[0m, [1;34m48[0m, [1;34m30[0m][32m>[0m,
+                      background[32m=[0m[1;36mnil[0m,
+                      step[32m=[0m[32m#<Cucumber::Core::Ast::Step "Quando : eu acesso a tela de PMI para cadastro" (features/acesso_e_cadastro.feature:13)>[0m,
+                      messages[32m=[0m[],
+                      embeddings[32m=[0m[][32m>[0m,
+                     [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                      step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/acesso_e_cadastro_steps.rb:17>[0m,
+                      status[32m=[0m[33m:passed[0m,
+                      duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x00000007374c48[0m @nanoseconds[32m=[0m[1;34m2346658189[0m[32m>[0m,
+                      exception[32m=[0m[1;36mnil[0m,
+                      indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x00000007ff0030[0m @widths[32m=[0m[[1;34m21[0m, [1;34m45[0m, [1;34m45[0m, [1;34m48[0m, [1;34m30[0m][32m>[0m,
+                      background[32m=[0m[1;36mnil[0m,
+                      step[32m=[0m[32m#<Cucumber::Core::Ast::Step "E : digitar os dados para cadastro de funcionario" (features/acesso_e_cadastro.feature:14)>[0m,
+                      messages[32m=[0m[],
+                      embeddings[32m=[0m[][32m>[0m][32m>[0m,
+                 config[32m=[0m
+                  [32m#<Cucumber::Configuration:0x00000003f73930[0m
+                   @options[32m=[0m
+                    {[33m:autoload_code_paths[0m=>[[31m[1;31m"[0m[31mfeatures/support[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mfeatures/step_definitions[1;31m"[0m[31m[0m],
+                     [33m:filters[0m=>[],
+                     [33m:strict[0m=>[1;36mfalse[0m,
+                     [33m:require[0m=>[],
+                     [33m:dry_run[0m=>[1;36mfalse[0m,
+                     [33m:fail_fast[0m=>[1;36mfalse[0m,
+                     [33m:formats[0m=>[[[31m[1;31m"[0m[31mpretty[1;31m"[0m[31m[0m, [32m#<IO:<STDOUT>>[0m], [[31m[1;31m"[0m[31mhtml[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mreport.html[1;31m"[0m[31m[0m]],
+                     [33m:excludes[0m=>[],
+                     [33m:tag_expressions[0m=>[],
+                     [33m:name_regexps[0m=>[],
+                     [33m:env_vars[0m=>{},
+                     [33m:diff_enabled[0m=>[1;36mtrue[0m,
+                     [33m:snippets[0m=>[1;36mtrue[0m,
+                     [33m:source[0m=>[1;36mtrue[0m,
+                     [33m:duration[0m=>[1;36mtrue[0m,
+                     [33m:event_bus[0m=>
+                      [32m#<Cucumber::Events::Bus:0x00000003f73778[0m
+                       @default_namespace[32m=[0m[31m[1;31m"[0m[31mCucumber::Events[1;31m"[0m[31m[0m,
+                       @handlers[32m=[0m
+                        {[31m[1;31m"[0m[31mCucumber::Events::StepMatch[1;31m"[0m[31m[0m=>
+                          [[32m#<Proc:0x00000006aa0a40@C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m,
+                           [32m#<Proc:0x000000040eb9e8@C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m],
+                         [31m[1;31m"[0m[31mCucumber::Events::BeforeTestCase[1;31m"[0m[31m[0m=>[],
+                         [31m[1;31m"[0m[31mCucumber::Events::BeforeTestStep[1;31m"[0m[31m[0m=>[],
+                         [31m[1;31m"[0m[31mCucumber::Events::AfterTestStep[1;31m"[0m[31m[0m=>[]}[32m>[0m,
+                     [33m:retry[0m=>[1;34m0[0m,
+                     [33m:skip_profile_information[0m=>[1;36mnil[0m,
+                     [33m:profile_loader[0m=>
+                      [32m#<Cucumber::Cli::ProfileLoader:0x00000003506998[0m
+                       @cucumber_erb[32m=[0m[31m[1;31m"[0m[31mdefault: --format html --out report.html --format pretty[1;35m\n[0m[31m[1;31m"[0m[31m[0m,
+                       @cucumber_file[32m=[0m[31m[1;31m"[0m[31mcucumber.yml[1;31m"[0m[31m[0m,
+                       @cucumber_yml[32m=[0m{[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m--format html --out report.html --format pretty[1;31m"[0m[31m[0m}[32m>[0m,
+                     [33m:paths[0m=>[],
+                     [33m:profiles[0m=>[[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m],
+                     [33m:default_profile[0m=>[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m,
+                     [33m:tag_expression[0m=>[32m#<Cucumber::Core::Gherkin::TagExpression:0x00000003f73ae8[0m @ands[32m=[0m[], @limits[32m=[0m{}[32m>[0m,
+                     [33m:out_stream[0m=>[32m#<IO:<STDOUT>>[0m,
+                     [33m:error_stream[0m=>[32m#<IO:<STDERR>>[0m,
+                     [33m:snippet_generators[0m=>[[32m#<Cucumber::RbSupport::Snippet::Generator:0x00000003f734d0[0m[32m>[0m]}[32m>[0m[32m>[0m],
+              @report[32m=[0m
+               [32m#<Cucumber::Core::Report::Summary:0x00000006a8a290[0m
+                @test_cases[32m=[0m[32m#<Cucumber::Core::Test::Result::Summary:0x00000006a8a268[0m @durations[32m=[0m[], @exceptions[32m=[0m[], @totals[32m=[0m{}[32m>[0m,
+                @test_steps[32m=[0m
+                 [32m#<Cucumber::Core::Test::Result::Summary:0x00000006a8a178[0m
+                  @durations[32m=[0m
+                   [[32m#<Cucumber::Core::Test::Result::Duration:0x00000006e6ca98[0m @nanoseconds[32m=[0m[1;34m3079[0m[32m>[0m,
+                    [32m#<Cucumber::Core::Test::Result::Duration:0x00000006e75648[0m @nanoseconds[32m=[0m[1;34m28225[0m[32m>[0m,
+                    [32m#<Cucumber::Core::Test::Result::Duration:0x00000006e7e4f0[0m @nanoseconds[32m=[0m[1;34m38489[0m[32m>[0m,
+                    [32m#<Cucumber::Core::Test::Result::Duration:0x0000000707ee30[0m @nanoseconds[32m=[0m[1;34m7490335695[0m[32m>[0m,
+                    [32m#<Cucumber::Core::Test::Result::Duration:0x0000000712d2a0[0m @nanoseconds[32m=[0m[1;34m2898620764[0m[32m>[0m,
+                    [32m#<Cucumber::Core::Test::Result::Duration:0x00000007374c48[0m @nanoseconds[32m=[0m[1;34m2346658189[0m[32m>[0m],
+                  @exceptions[32m=[0m[],
+                  @totals[32m=[0m{[33m:passed[0m=>[1;34m6[0m}[32m>[0m[32m>[0m[32m#<Cucumber::Formatter::EventBusReport:0x00000006a8a088[0m
+                @config[32m=[0m
+                 [32m#<Cucumber::Configuration:0x00000003f73930[0m
+                  @options[32m=[0m
+                   {[33m:autoload_code_paths[0m=>[[31m[1;31m"[0m[31mfeatures/support[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mfeatures/step_definitions[1;31m"[0m[31m[0m],
+                    [33m:filters[0m=>[],
+                    [33m:strict[0m=>[1;36mfalse[0m,
+                    [33m:require[0m=>[],
+                    [33m:dry_run[0m=>[1;36mfalse[0m,
+                    [33m:fail_fast[0m=>[1;36mfalse[0m,
+                    [33m:formats[0m=>[[[31m[1;31m"[0m[31mpretty[1;31m"[0m[31m[0m, [32m#<IO:<STDOUT>>[0m], [[31m[1;31m"[0m[31mhtml[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mreport.html[1;31m"[0m[31m[0m]],
+                    [33m:excludes[0m=>[],
+                    [33m:tag_expressions[0m=>[],
+                    [33m:name_regexps[0m=>[],
+                    [33m:env_vars[0m=>{},
+                    [33m:diff_enabled[0m=>[1;36mtrue[0m,
+                    [33m:snippets[0m=>[1;36mtrue[0m,
+                    [33m:source[0m=>[1;36mtrue[0m,
+                    [33m:duration[0m=>[1;36mtrue[0m,
+                    [33m:event_bus[0m=>
+                     [32m#<Cucumber::Events::Bus:0x00000003f73778[0m
+                      @default_namespace[32m=[0m[31m[1;31m"[0m[31mCucumber::Events[1;31m"[0m[31m[0m,
+                      @handlers[32m=[0m
+                       {[31m[1;31m"[0m[31mCucumber::Events::StepMatch[1;31m"[0m[31m[0m=>
+                         [[32m#<Proc:0x00000006aa0a40@C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m,
+                          [32m#<Proc:0x000000040eb9e8@C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/cucumber-2.4.0/lib/cucumber/formatter/legacy_api/adapter.rb:69>[0m],
+                        [31m[1;31m"[0m[31mCucumber::Events::BeforeTestCase[1;31m"[0m[31m[0m=>[],
+                        [31m[1;31m"[0m[31mCucumber::Events::BeforeTestStep[1;31m"[0m[31m[0m=>[],
+                        [31m[1;31m"[0m[31mCucumber::Events::AfterTestStep[1;31m"[0m[31m[0m=>[]}[32m>[0m,
+                    [33m:retry[0m=>[1;34m0[0m,
+                    [33m:skip_profile_information[0m=>[1;36mnil[0m,
+                    [33m:profile_loader[0m=>
+                     [32m#<Cucumber::Cli::ProfileLoader:0x00000003506998[0m
+                      @cucumber_erb[32m=[0m[31m[1;31m"[0m[31mdefault: --format html --out report.html --format pretty[1;35m\n[0m[31m[1;31m"[0m[31m[0m,
+                      @cucumber_file[32m=[0m[31m[1;31m"[0m[31mcucumber.yml[1;31m"[0m[31m[0m,
+                      @cucumber_yml[32m=[0m{[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m--format html --out report.html --format pretty[1;31m"[0m[31m[0m}[32m>[0m,
+                    [33m:paths[0m=>[],
+                    [33m:profiles[0m=>[[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m],
+                    [33m:default_profile[0m=>[31m[1;31m"[0m[31mdefault[1;31m"[0m[31m[0m,
+                    [33m:tag_expression[0m=>[32m#<Cucumber::Core::Gherkin::TagExpression:0x00000003f73ae8[0m @ands[32m=[0m[], @limits[32m=[0m{}[32m>[0m,
+                    [33m:out_stream[0m=>[32m#<IO:<STDOUT>>[0m,
+                    [33m:error_stream[0m=>[32m#<IO:<STDERR>>[0m,
+                    [33m:snippet_generators[0m=>[[32m#<Cucumber::RbSupport::Snippet::Generator:0x00000003f734d0[0m[32m>[0m]}[32m>[0m,
+                @test_case[32m=[0m[32m#<Cucumber::Core::Test::Case: features/acesso_e_cadastro.feature:11>[0m[32m>[0m[32m#<struct Cucumber::Formatter::LegacyApi::Adapter[0m
+                formatter[32m=[0m[32m#<Cucumber::Formatter::Pretty:0x00000006aa0c70[0m ...[32m>[0m,
+                results[32m=[0m
+                 [32m#<Cucumber::Formatter::LegacyApi::Results:0x00000006aa0d10[0m
+                  @inserted_scenarios[32m=[0m{},
+                  @inserted_steps[32m=[0m
+                   {[1;34m58974720[0m=>
+                     [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                      step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/acesso_e_cadastro_steps.rb:1>[0m,
+                      status[32m=[0m[33m:passed[0m,
+                      duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x0000000707ee30[0m @nanoseconds[32m=[0m[1;34m7490335695[0m[32m>[0m,
+                      exception[32m=[0m[1;36mnil[0m,
+                      indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x0000000707c6a8[0m @widths[32m=[0m[[1;34m21[0m, [1;34m45[0m, [1;34m45[0m, [1;34m48[0m, [1;34m30[0m][32m>[0m,
+                      background[32m=[0m[1;36mnil[0m,
+                      step[32m=[0m[32m#<Cucumber::Core::Ast::Step "Dado : que eu esteja na pagina inicial do site" (features/acesso_e_cadastro.feature:12)>[0m,
+                      messages[32m=[0m[],
+                      embeddings[32m=[0m[][32m>[0m,
+                    [1;34m59374380[0m=>
+                     [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                      step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/acesso_e_cadastro_steps.rb:10>[0m,
+                      status[32m=[0m[33m:passed[0m,
+                      duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x0000000712d2a0[0m @nanoseconds[32m=[0m[1;34m2898620764[0m[32m>[0m,
+                      exception[32m=[0m[1;36mnil[0m,
+                      indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x0000000713f8d8[0m @widths[32m=[0m[[1;34m21[0m, [1;34m45[0m, [1;34m45[0m, [1;34m48[0m, [1;34m30[0m][32m>[0m,
+                      background[32m=[0m[1;36mnil[0m,
+                      step[32m=[0m[32m#<Cucumber::Core::Ast::Step "Quando : eu acesso a tela de PMI para cadastro" (features/acesso_e_cadastro.feature:13)>[0m,
+                      messages[32m=[0m[],
+                      embeddings[32m=[0m[][32m>[0m,
+                    [1;34m67082200[0m=>
+                     [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                      step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/acesso_e_cadastro_steps.rb:17>[0m,
+                      status[32m=[0m[33m:passed[0m,
+                      duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x00000007374c48[0m @nanoseconds[32m=[0m[1;34m2346658189[0m[32m>[0m,
+                      exception[32m=[0m[1;36mnil[0m,
+                      indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x00000007ff3230[0m @widths[32m=[0m[[1;34m21[0m, [1;34m45[0m, [1;34m45[0m, [1;34m48[0m, [1;34m30[0m][32m>[0m,
+                      background[32m=[0m[1;36mnil[0m,
+                      step[32m=[0m[32m#<Cucumber::Core::Ast::Step "E : digitar os dados para cadastro de funcionario" (features/acesso_e_cadastro.feature:14)>[0m,
+                      messages[32m=[0m[],
+                      embeddings[32m=[0m[][32m>[0m},
+                  @steps[32m=[0m
+                   [[32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                     step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/acesso_e_cadastro_steps.rb:1>[0m,
+                     status[32m=[0m[33m:passed[0m,
+                     duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x0000000707ee30[0m @nanoseconds[32m=[0m[1;34m7490335695[0m[32m>[0m,
+                     exception[32m=[0m[1;36mnil[0m,
+                     indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x0000000707c6a8[0m @widths[32m=[0m[[1;34m21[0m, [1;34m45[0m, [1;34m45[0m, [1;34m48[0m, [1;34m30[0m][32m>[0m,
+                     background[32m=[0m[1;36mnil[0m,
+                     step[32m=[0m[32m#<Cucumber::Core::Ast::Step "Dado : que eu esteja na pagina inicial do site" (features/acesso_e_cadastro.feature:12)>[0m,
+                     messages[32m=[0m[],
+                     embeddings[32m=[0m[][32m>[0m,
+                    [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                     step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/acesso_e_cadastro_steps.rb:10>[0m,
+                     status[32m=[0m[33m:passed[0m,
+                     duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x0000000712d2a0[0m @nanoseconds[32m=[0m[1;34m2898620764[0m[32m>[0m,
+                     exception[32m=[0m[1;36mnil[0m,
+                     indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x0000000713f8d8[0m @widths[32m=[0m[[1;34m21[0m, [1;34m45[0m, [1;34m45[0m, [1;34m48[0m, [1;34m30[0m][32m>[0m,
+                     background[32m=[0m[1;36mnil[0m,
+                     step[32m=[0m[32m#<Cucumber::Core::Ast::Step "Quando : eu acesso a tela de PMI para cadastro" (features/acesso_e_cadastro.feature:13)>[0m,
+                     messages[32m=[0m[],
+                     embeddings[32m=[0m[][32m>[0m,
+                    [32m#<struct Cucumber::Formatter::LegacyApi::Ast::StepInvocation[0m
+                     step_match[32m=[0m[32m#<Cucumber::StepMatch: features/step_definitions/acesso_e_cadastro_steps.rb:17>[0m,
+                     status[32m=[0m[33m:passed[0m,
+                     duration[32m=[0m[32m#<Cucumber::Core::Test::Result::Duration:0x00000007374c48[0m @nanoseconds[32m=[0m[1;34m2346658189[0m[32m>[0m,
+                     exception[32m=[0m[1;36mnil[0m,
+                     indent[32m=[0m[32m#<Cucumber::Formatter::LegacyApi::Indent:0x00000007ff3230[0m @widths[32m=[0m[[1;34m21[0m, [1;34m45[0m, [1;34m45[0m, [1;34m48[0m, [1;34m30[0m][32m>[0m,
+                     background[32m=[0m[1;36mnil[0m,
+                     step[32m=[0m[32m#<Cucumber::Core::Ast::Step "E : digitar os dados para cadastro de funcionario" (features/acesso_e_cadastro.feature:14)>[0m,
+                     messages[32m=[0m[],
+                     embeddings[32m=[0m[][32m>[0m][32m>[0m,
+                config[32m=[0m
+                 [32m#<Cucumber::Configuration:0x00000003f73930[0m
+                  @options[32m=[0m
+                   {[33m:autoload_code_paths[0m=>[[31m[1;31m"[0m[31mfeatures/support[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mfeatures/step_definitions[1;31m"[0m[31m[0m],
+                    [33m:filters[0m=>[],
+                    [33m:strict[0m=>[1;36mfalse[0m,
+                    [33m:require[0m=>[],
+                    [33m:dry_run[0m=>[1;36mfalse[0m,
