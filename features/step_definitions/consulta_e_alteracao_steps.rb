@@ -11,9 +11,11 @@ end
 Quando(/^alterar os dados do funcionario$/) do
   click_button('btnSave')
   fill_in('personal_txtEmpMiddleName', :with => 'Rocha')
-  select('Single', :from => 'personal_cmbMarital')
+  find(:xpath, '//*[@id="personal_cmbMarital"]/option[2]').click
+  #select('Single', :from => 'personal_cmbMarital')
   choose('personal_optGender_1')
-  select('Brazilian', :from => 'personal_cmbNation')
+  find(:xpath, '//*[@id="personal_cmbNation"]/option[27]').click
+  #select('Brazilian', :from => 'personal_cmbNation')
   click_button('btnSave')
 end
 
