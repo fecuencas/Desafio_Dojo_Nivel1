@@ -3,7 +3,7 @@ Quando(/^eu acesso a tela de PMI para consulta$/) do
 #Acessar o item PIM/EmployeeList e consultar
   find('#menu_pim_viewPimModule').click
   find('#menu_pim_viewEmployeeList').click
-  fill_in('empsearch_employee_name_empName', :with => 'Alan Delon')
+  fill_in('empsearch_employee_name_empName', :with => 'Alan Milles')
   click_button('searchBtn')
   find_link('1000').click
   page.has_content?('Personal Details')
@@ -25,7 +25,7 @@ end
 
 Então(/^eu confirmarei a alteração no cadastro$/) do
 
-#Validar alteração do cadastro e deletar o cadastro  
+#Validar alteração do cadastro e deletar o cadastro
   page.has_content?('Successfully Saved')
   find('#menu_pim_viewPimModule').click
   find('#menu_pim_viewEmployeeList').click
