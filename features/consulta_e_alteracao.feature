@@ -2,7 +2,7 @@
 #utf-8
 
 @consulta
-Funcionalidade: Alterar dados de usuario cadastrado
+Funcionalidade: Consultar e Alterar dados de usuario cadastrado
 Eu como usuario administrador
 Quero consultar os dados dos usuarios cadastrados
 Para alterar os dados cadastrais

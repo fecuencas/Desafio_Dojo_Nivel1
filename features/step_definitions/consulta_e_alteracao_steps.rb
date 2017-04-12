@@ -3,7 +3,7 @@ Quando(/^eu acesso a tela de PMI para consulta$/) do
 #Acessar o item PIM/EmployeeList e consultar
   find('#menu_pim_viewPimModule').click
   find('#menu_pim_viewEmployeeList').click
-  fill_in('empsearch_employee_name_empName', :with => 'Alan Milles')
+  fill_in('empsearch_id', :with => '1000')
   click_button('searchBtn')
   find_link('1000').click
   page.has_content?('Personal Details')
@@ -14,7 +14,7 @@ Quando(/^alterar os dados do funcionario$/) do
 
 #Alterar dados do funcionario
   click_button('btnSave')
-  fill_in('personal_txtEmpMiddleName', :with => 'Rocha')
+  fill_in('personal_txtLicenNo', :with => '69936576159')
   find(:xpath, '//*[@id="personal_cmbMarital"]/option[2]').click
   #select('Single', :from => 'personal_cmbMarital')
   choose('personal_optGender_1')
