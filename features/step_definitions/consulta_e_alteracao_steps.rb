@@ -15,11 +15,13 @@ Quando(/^alterar os dados do funcionario$/) do
 #Alterar dados do funcionario
   click_button('btnSave')
   fill_in('personal_txtLicenNo', :with => '69936576159')
+  fill_in('personal_txtLicExpDate', :with => '2020-12-31').click
   find(:xpath, '//*[@id="personal_cmbMarital"]/option[2]').click
   #select('Single', :from => 'personal_cmbMarital')
   choose('personal_optGender_1')
   find(:xpath, '//*[@id="personal_cmbNation"]/option[27]').click
   #select('Brazilian', :from => 'personal_cmbNation')
+  fill_in('personal_DOB', :with => '1988-11-26')
   click_button('btnSave')
 end
 
