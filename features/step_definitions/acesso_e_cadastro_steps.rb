@@ -20,12 +20,6 @@ Quando(/^digitar os dados para cadastro de funcionario$/) do
   fill_in('firstName', :with => 'Alan')
   fill_in('middleName', :with => 'Della')
   fill_in('lastName', :with => 'Milles')
-  $id = find('#employeeId').value
-  #@id = find(:id, 'employeeId').value
-  #puts @id
-  #find(:xpath, '//*[@id="photofile"]').click
-  #puts 'C:\Users\Inmetrics\desafio\features\images.jpg'.click
-  #fill_in('employeeId', :with => '1000')
   check('chkLogin')
   fill_in('user_name', :with => 'Aladem')
   fill_in('user_password', :with => 'alan1234')
@@ -40,6 +34,6 @@ Então(/^eu efetuarei o cadastro$/) do
 
 #Validar o carregamento da tela de cadastrado
 assert_text('Personal Details')
-#$id = find('#personal_txtEmployeeId').value
+$id = find('#personal_txtEmployeeId').value
 
 end
