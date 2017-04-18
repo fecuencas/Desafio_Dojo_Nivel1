@@ -1,19 +1,27 @@
 Quando(/^eu acesso a tela de PMI para consulta$/) do
 
-#Acessar o item PIM/EmployeeList e consultar
+#Acessar o item PIM/EmployeeList
   find('#menu_pim_viewPimModule').click
   find('#menu_pim_viewEmployeeList').click
-  fill_in('empsearch_id', :with => $id)
+
+end
+
+Quando(/^consulto a lista de funcionarios cadastrados$/) do
+
+#Selecionar um funcionario da lista de funcionarios
   click_button('searchBtn')
-  find_link($id).click
+  find(:xpath, '//*[@id="resultTable"]/tbody/tr[1]/td[2]').click_link()
   page.has_content?('Personal Details')
 
 end
 
-Quando(/^alterar os dados do funcionario$/) do
+Então(/^altero o cadastro de um funcionario$/) do
 
 #Alterar dados do funcionario
   click_button('btnSave')
+  fill_in('personal_txtEmpFirstName', :with => 'Alterei')
+  fill_in('personal_txtEmpMiddleName', :with => 'Você')
+  fill_in('personal_txtEmpLastName', :with => 'Para Teste')
   fill_in('personal_txtLicenNo', :with => '69936576159')
   fill_in('personal_txtLicExpDate', :with => '2020-12-31').click
   find(:xpath, '//*[@id="personal_cmbMarital"]/option[2]').click
@@ -23,18 +31,6 @@ Quando(/^alterar os dados do funcionario$/) do
   #select('Brazilian', :from => 'personal_cmbNation')
   fill_in('personal_DOB', :with => '1988-11-26')
   click_button('btnSave')
-end
-
-Então(/^eu confirmarei a alteração no cadastro$/) do
-
-#Validar alteração do cadastro e deletar o cadastro
   page.has_content?('Successfully Saved')
-  find('#menu_pim_viewPimModule').click
-  find('#menu_pim_viewEmployeeList').click
-  fill_in('empsearch_id', :with => $id)
-  check('ohrmList_chkSelectAll')
-  find('#btnDelete').click
-  click_button('dialogDeleteBtn')
-  page.has_content?('Successfully Deleted')
 
 end

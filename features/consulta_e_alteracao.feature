@@ -11,5 +11,5 @@ Para alterar os dados cadastrais
 Cenario: Efetuar consulta
 Dado que eu esteja na pagina inicial do site
 Quando eu acesso a tela de PMI para consulta
-E alterar os dados do funcionario
-Então eu confirmarei a alteração no cadastro
+E consulto a lista de funcionarios cadastrados
+Então altero o cadastro de um funcionario
